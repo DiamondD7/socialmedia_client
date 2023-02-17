@@ -1,0 +1,62 @@
+
+
+.form-wrapper{
+    /* background-color: red; */
+    width: 25%;
+    margin: 150px auto;
+    border-left: 1px solid #FFD000;
+    
+}
+
+.loginform-wrapper{
+    width: 100%;
+    display: inline-block;
+}
+
+.form__inputs{
+    display: flex;
+    justify-content: center;
+}
+
+.form-inputs__username{
+    width: 300px;
+    height: 30px;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-inputs__password{
+    width: 300px;
+    height: 30px;
+
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-inputs__button{
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: #FFD000;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.signin-header__wrapper{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signin-header__wrapper h1{
+    font-size: 40px;
+}
+
+.form-anchortags{
+    margin-top: 10px;
+}
