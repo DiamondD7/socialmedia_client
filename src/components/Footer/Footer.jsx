@@ -4,7 +4,7 @@ import HiveMiniLogo from "../../assets/images/HiveMiniLogo.png";
 import "../../styles/footerstyles.css";
 const Footer = () => {
   return (
-    <div>
+    <div className="main-footer__container">
       <div className="footer-wrapper">
         <div>
           <ul className="footer-ul__wrapper">
