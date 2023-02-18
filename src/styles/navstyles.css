@@ -1,0 +1,26 @@
+
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.firstLI{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    padding: 0 5px;
+    font-size: 14px;
+    width: 220px;
+    border: 1px solid #202020;
+    border-radius: 5px;
+}
+
+.hub-imageLogo{
+    width: 50px;
+    cursor: pointer;
+}

@@ -5,8 +5,6 @@
     display: flex;
     gap: 200px;
 
-    position: absolute;
-    bottom:0;
 }
 
 .footer-ul__wrapper{
@@ -40,11 +38,10 @@
 
 .footer-img__spinning{
     position:absolute;
-    bottom: 50px;
     left: 45%;
     transform: translate(-50%);
     background-color: transparent;
-    width: 180px;
+    width:180px;
     will-change: filter;
     transition: filter 300ms;
     animation: logo-spin infinite 20s linear;
