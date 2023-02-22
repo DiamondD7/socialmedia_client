@@ -12,7 +12,7 @@ const Nav = () => {
           </li>
           <li>Home</li>
           <li>Profile</li>
-          <li>Find Connections</li>
+          <li>Connections</li>
           <li>Messaging</li>
           <li>Notification</li>
         </ul>

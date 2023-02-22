@@ -4,7 +4,7 @@ import testUserPic from "../../../assets/images/testimg.webp";
 const StatusContainer = () => {
   return (
     <div className="status-container__wrapper">
-      <p className="status-text">What is the last thing on your mind?</p>
+      <p className="status-text">Share your thoughts . . .</p>
       <div className="status-second__wrapper">
         <img className="status-user__picture" src={testUserPic} />
         <textarea className="status-input"></textarea>
