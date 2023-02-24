@@ -1,10 +1,11 @@
 import React from "react";
 import Nav from "./Navigation/Nav";
 import StatusContainer from "./Home Components/StatusContainer";
-
-import "../../styles/homehubstyles.css";
 import FeedContainers from "./Home Components/FeedContainers";
 import NewsContainer from "./Home Components/NewsContainer";
+import Profile from "../Profile/Profile";
+
+import "../../styles/homehubstyles.css";
 const Home = () => {
   return (
     <div>
