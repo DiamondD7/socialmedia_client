@@ -14,10 +14,14 @@ const Nav = () => {
             <input className="nav-search" type="text" placeholder="search" />
           </li>
           <li>
-            <Link to="/hub">Feed</Link>
+            <Link to="/hub" style={{ textDecoration: "none" }}>
+              Feed
+            </Link>
           </li>
           <li>
-            <Link to="/profile">Profile</Link>
+            <Link to="/profile" style={{ textDecoration: "none" }}>
+              Profile
+            </Link>
           </li>
           <li>Connections</li>
           <li>Messaging</li>

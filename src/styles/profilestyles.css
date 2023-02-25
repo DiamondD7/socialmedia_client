@@ -3,3 +3,17 @@
     height: 100vh;
     background-color: #F1F1F1;;
 }
+
+
+.profile-picture__wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #F1F1F1;
+}
+
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
