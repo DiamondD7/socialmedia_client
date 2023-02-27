@@ -2,18 +2,143 @@
     width: 100vw;
     height: 100vh;
     background-color: #F1F1F1;;
+    overflow-y: auto;
 }
 
+.post-button__wrapper{
+    border: none;
+    background-color: transparent;
+}
+
+.profile-name__wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #F1F1F1;
+    padding-top: 20px;
+}
+
+.profile-name__text{
+    background-color: #F1F1F1;
+    font-size: 20px;
+}
 
 .profile-picture__wrapper{
     display: flex;
     justify-content: center;
+    padding-top: 10px;
     background-color: #F1F1F1;
 }
 
 .profile-picture{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     object-fit: cover;
     object-position: top;
+}
+
+.profile-description__wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #F1F1F1;
+    margin-top: 15px;
+}
+
+.profile-statistics__wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #F1F1F1;
+    gap: 40px;
+    margin-top: 20px;
+}
+.profile-statistics__wrapper p{
+    background-color: #F1F1F1;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.profile-description__text{
+    width: 400px;
+    font-size: 12px;
+    background-color: #F1F1F1;
+    color: rgba(0,0,0,0.4);
+}
+
+.profile-content__wrapper{
+    margin-top: 50px;
+}
+
+
+/* -------------------------POST CONTAINERS------------------------------------- */
+
+.post-container__wrapper{
+    display: grid;
+    grid-template-columns: repeat(5,350px);
+    padding-left: 110px;
+    gap: 10px;
+    background-color: #F1F1F1;
+}
+
+.post__wrapper{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all .5s ease-in-out;
+}
+
+
+.post-content__wrapper p{
+    background-color: transparent;
+    color: rgb(223, 221, 221);
+    padding:5px;
+    line-height: 1.5;
+}
+
+.post-content__wrapper{
+    opacity: 0;
+    border-radius: 10px;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+}
+
+.post-icons{
+    background-color: transparent;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.post__wrapper:hover .post-content__wrapper{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3));
+    cursor: pointer;
+}
+
+
+.post-icons__wrapper{
+    position: absolute;
+    top:33%;
+    background-color: transparent;
+    opacity: 0;
+    transition:all .5s ease-in-out
+}
+
+
+.post-icons li{
+    background-color: transparent;
+}
+
+.post-icons button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.post__wrapper:hover .post-icons__wrapper{
+    opacity:1;
+    transition: all .5s ease-in-out
 }
