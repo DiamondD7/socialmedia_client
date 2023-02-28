@@ -73,6 +73,10 @@
     margin-left: 40%;
 }
 
+.aboutme-container{
+    background-color: #F1F1F1;
+}
+
 .profile-container__flexWrapper{
     display: flex;
     background-color: #F1F1F1;
@@ -131,6 +135,7 @@
 
 .profile-summary__nav__wrapper li button{
     font-size: 12px;
+    
     border: none;
     background-color: transparent;
     cursor: pointer;

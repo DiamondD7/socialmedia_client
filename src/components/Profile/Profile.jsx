@@ -4,6 +4,7 @@ import TestImg from "../../assets/images/testimg.webp";
 
 import "../../styles/profilestyles.css";
 import PostContainers from "./PostContainers";
+import AboutMeContainer from "./AboutMeContainer";
 const Profile = () => {
   return (
     <div>
@@ -33,45 +34,8 @@ const Profile = () => {
               <p>300 Following</p>
             </div>
           </div>
-          <div className="profile-summary__wrapper">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illum
-              minima, laboriosam similique ut accusamus dolorem quod vero animi
-              deleniti corporis perferendis aspernatur omnis doloribus maxime,
-              ab alias minus harum? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Eligendi sunt animi autem rem libero earum aut?
-              Impedit, odio qui? Ipsa, dolorum pariatur ea quis sunt molestias
-              similique necessitatibus accusantium temporibus. Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Error autem, voluptate
-              minus ad quisquam accusamus omnis in asperiores numquam eos
-              obcaecati porro explicabo natus libero ab? Itaque Lorem ipsum,
-              dolor sit amet consectetur adipisicing elit. Optio veritatis culpa
-              perspiciatis reprehenderit rem harum odio nobis iusto! Dicta
-              assumenda vero expedita incidunt molestias velit fugiat quasi
-              facere ipsam quas!
-            </p>
-            <div className="profile-summmary-navigation__container">
-              <ul className="profile-summary__nav__wrapper">
-                <li>
-                  <button>About Me</button>
-                </li>
-                <li>
-                  <button>Hobbies</button>
-                </li>
-                <li>
-                  <button>Links</button>
-                </li>
-                <li>
-                  <button>Favourites</button>
-                </li>
-                <li>
-                  <button>Quote of the day</button>
-                </li>
-                <li>
-                  <button>Music</button>
-                </li>
-              </ul>
-            </div>
+          <div className="aboutme-container">
+            <AboutMeContainer />
           </div>
         </div>
         <div className="profile-content__wrapper">
