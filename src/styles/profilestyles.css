@@ -70,7 +70,7 @@
 
 .profile-container-summarry-picture__wrapper{
     background-color: #F1F1F1;
-    margin-left: 40%;
+    /* margin-left: 5%; */
 }
 
 .aboutme-container{
@@ -79,6 +79,7 @@
 
 .profile-container__flexWrapper{
     display: flex;
+    justify-content: center;
     background-color: #F1F1F1;
 }
 
@@ -145,12 +146,56 @@
 .profile-summary__nav__wrapper li:nth-child(1) button{
     border-bottom: 2px solid #FDD000;
 }
+
+/* -------------------------FEATURE POSTS------------------------------------ */
+
+.features__wrapper{
+    margin-right: 90px;
+    background-color: #F1F1F1;
+}
+
+
+.features-summary__wrapper{
+    width: 500px;
+    height: 200px;
+    margin:50px 0 0 0px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 10px;
+
+    position: relative;
+}
+
+
+.feature1{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin:15px 20px 0 17px;
+
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.feature1:hover{
+    box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
+    transition: all .3s ease-in-out;
+}
+
+.features-title__text{
+    text-align: center;
+    letter-spacing: .5px;
+    color: #202020;
+}
 /* -------------------------POST CONTAINERS------------------------------------- */
 
 .post-container__wrapper{
     display: grid;
     grid-template-columns: repeat(5,300px);
     padding-left: 110px;
+    padding-top: 20px;
     gap: 50px;
     background-color: #F1F1F1;
 }
@@ -197,7 +242,7 @@
 
 .post-icons__wrapper{
     position: absolute;
-    top:33%;
+    top:36%;
     background-color: transparent;
     opacity: 0;
     transition:all .5s ease-in-out

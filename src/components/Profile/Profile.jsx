@@ -5,6 +5,7 @@ import TestImg from "../../assets/images/testimg.webp";
 import "../../styles/profilestyles.css";
 import PostContainers from "./PostContainers";
 import AboutMeContainer from "./AboutMeContainer";
+import PostFeaturesContainers from "./PostFeaturesContainers";
 const Profile = () => {
   return (
     <div>
@@ -13,6 +14,10 @@ const Profile = () => {
       </div>
       <div className="profile-container__wrapper">
         <div className="profile-container__flexWrapper">
+          <div className="features__wrapper">
+            <PostFeaturesContainers />
+          </div>
+
           <div className="profile-container-summarry-picture__wrapper">
             <div className="profile-name__wrapper">
               <p className="profile-name__text">Aaron Sierra</p>
