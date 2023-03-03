@@ -143,9 +143,9 @@
     text-transform: uppercase;
 }
 
-.profile-summary__nav__wrapper li:nth-child(1) button{
+/* .profile-summary__nav__wrapper li:nth-child(1) button{
     border-bottom: 2px solid #FDD000;
-}
+} */
 
 /* -------------------------FEATURE POSTS------------------------------------ */
 

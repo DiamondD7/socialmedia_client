@@ -1,11 +1,11 @@
 import React from "react";
 import Nav from "../Home/Navigation/Nav";
 import TestImg from "../../assets/images/testimg.webp";
-
-import "../../styles/profilestyles.css";
 import PostContainers from "./PostContainers";
 import AboutMeContainer from "./AboutMeContainer";
 import PostFeaturesContainers from "./PostFeaturesContainers";
+
+import "../../styles/profilestyles.css";
 const Profile = () => {
   return (
     <div>
