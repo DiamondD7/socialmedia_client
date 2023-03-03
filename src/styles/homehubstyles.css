@@ -110,6 +110,7 @@
     
 }
 
+
 .feed-wrapper{
     margin:40px 0 0 50%;
     transform: translate(-50%);
@@ -119,6 +120,33 @@
     height: 500px;
     padding: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    position: relative;
+}
+
+.dots-btn{
+    position: absolute;
+    right:5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown-dots__wrapper{
+    width: 120px;
+    height: 125px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 25px;
+    right: -110px;
+    padding: 10px;
+}
+
+.dropdown__btns{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .feed-post__wrapper{

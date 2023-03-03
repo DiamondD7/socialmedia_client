@@ -1,13 +1,42 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import NaturePic from "../../../assets/images/nature.jpg";
 import AJS from "../../../assets/images/AJS.jpg";
-import { BiLike, BiShare, BiCommentDetail } from "react-icons/bi";
-
-import { HiArrowRight } from "react-icons/hi";
+import {
+  BiLike,
+  BiShare,
+  BiCommentDetail,
+  BiDotsHorizontalRounded,
+} from "react-icons/bi";
 const FeedContainers = () => {
+  const [dotsModal, setDotsModal] = useState(false);
+
+  const clickDots = () => {
+    if (dotsModal === true) {
+      setDotsModal(false);
+    } else {
+      setDotsModal(true);
+    }
+  };
   return (
     <div className="feed-main__wrapper">
-      <div className="feed-wrapper">
+      <div className="feed-wrapper" id="feedMainWrapper">
+        <button className="dots-btn" onClick={clickDots}>
+          <BiDotsHorizontalRounded size="19px" />
+        </button>
+        {dotsModal && (
+          <div className="dropdown-dots__wrapper">
+            <button className="dropdown__btns">Quick Message</button>
+            <br />
+            <button className="dropdown__btns">Save</button>
+            <br />
+            <button className="dropdown__btns">Unfollow</button>
+            <br />
+            <button className="dropdown__btns">Report</button>
+            <br />
+            <button className="dropdown__btns">Hide</button>
+          </div>
+        )}
+
         <div className="feed-post__wrapper">
           <div>
             <img className="feed-post1" src={NaturePic} />
@@ -45,8 +74,16 @@ const FeedContainers = () => {
           </div>
         </div>
       </div>
-      <div className="feed-wrapper"></div>
-      <div className="feed-wrapper"></div>
+      <div className="feed-wrapper">
+        <button className="dots-btn">
+          <BiDotsHorizontalRounded size="19px" />
+        </button>
+      </div>
+      <div className="feed-wrapper">
+        <button className="dots-btn">
+          <BiDotsHorizontalRounded size="19px" />
+        </button>
+      </div>
     </div>
   );
 };
