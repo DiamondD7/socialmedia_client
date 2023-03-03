@@ -1,6 +1,7 @@
  
  .news-main-container__wrapper{
     position: absolute;
+    background-color: #f1f1f1;
  }
  .news-container__wrapper{
     width: 500px;
