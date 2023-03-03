@@ -185,6 +185,7 @@
 }
 
 .features-title__text{
+    
     text-align: center;
     letter-spacing: .5px;
     color: #202020;
@@ -231,6 +232,10 @@
     list-style: none;
 }
 
+.post-icons li:last-child{
+    margin-left: 120px;
+}
+
 .post__wrapper:hover .post-content__wrapper{
     opacity: 1;
     transition: all 0.5s ease-in-out;
@@ -262,4 +267,28 @@
 .post__wrapper:hover .post-icons__wrapper{
     opacity:1;
     transition: all .5s ease-in-out
+}
+
+.dropdown-threedots__wrapper{
+    width: 80px;
+    height: 95px;
+    position: absolute;
+    top:15px;
+    right: -70px;
+
+    text-align: start;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.dropdown-btns{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.deleteBtn{
+    color: red;
 }
