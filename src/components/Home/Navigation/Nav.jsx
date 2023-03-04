@@ -23,7 +23,11 @@ const Nav = () => {
               Profile
             </Link>
           </li>
-          <li>Connections</li>
+          <li>
+            <Link to="/connections" style={{ textDecoration: "none" }}>
+              Connections
+            </Link>
+          </li>
           <li>Messaging</li>
           <li>Notification</li>
         </ul>
