@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const AboutMeContainer = () => {
-  const [aboutMe, setAboutMe] = useState(false);
+  const [aboutMe, setAboutMe] = useState(true);
   const [hobbies, setHobbies] = useState(false);
   return (
     <div className="profile-summary__wrapper">

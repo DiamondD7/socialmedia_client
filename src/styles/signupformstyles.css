@@ -1,87 +1,86 @@
-.signupcomponent_wrapper{
-    width: 100%;
-    margin:50px 0 233px 0;
+.signupcomponent_wrapper {
+  width: 100%;
+  margin: 50px 0 233px 0;
 }
-.signup-header-text{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.form-signup__wrapper{
-    width: 620px;
-    height: 400px;
-    /* background-color: red; */
-    margin: auto;
+.signup-header-text {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.form-signup__input{
-    padding: 5px;
-    border-radius: 5px;
-    width: 300px;
-    margin-top: 10px;
-    margin-right: 10px;
+.form-signup__wrapper {
+  width: 620px;
+  height: 400px;
+  /* background-color: red; */
+  margin: auto;
 }
 
-.form-signup__confirmpassword{
-    padding: 5px;
-    border-radius: 5px;
-    width: 610px;
-    margin-top: 20px;
+.form-signup__input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
-.form-signup__gender{
-    padding: 5px;
-    border-radius: 5px;
-    width: 300px;
-    margin-top: 20px;
+.form-signup__confirmpassword {
+  padding: 5px;
+  border-radius: 5px;
+  width: 610px;
+  margin-top: 20px;
 }
 
-.dateofbirth-text{
-    font-size: 15px;
-    margin-right: 5px;
+.form-signup__gender {
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 20px;
 }
 
-.dateofbirth-date{
-    padding: 5px;
-    border-radius: 5px;
-    width: 209px;
-    margin-top: 20px;
+.dateofbirth-text {
+  font-size: 15px;
+  margin-right: 5px;
 }
 
-
-.form-btns__wrapper{
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 70px;
+.dateofbirth-date {
+  padding: 5px;
+  border-radius: 5px;
+  width: 209px;
+  margin-top: 20px;
 }
 
-.signup-form-btn__back{
-    border: none;
-    font-size: 22px;
-    cursor: pointer;
-    text-decoration: none;
+.form-btns__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 70px;
 }
 
-.signup-form-btn__confirm{
-    padding: 0 20px;
-    font-size: 22px;
-    border:1px solid #FDD000;
-    border-radius: 5px;
-    background-color: #FDD000;
-    cursor: pointer;
+.signup-form-btn__back {
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.form-signup-btn__showpassword{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-bottom: 7px;
+.signup-form-btn__confirm {
+  padding: 0 20px;
+  font-size: 22px;
+  border: 1px solid #fdd000;
+  border-radius: 5px;
+  background-color: #fdd000;
+  cursor: pointer;
 }
 
-.iconshowpassword{
-    position: absolute;
-    right: 635px;
-    width: 20px;
-    cursor: pointer;
+.form-signup-btn__showpassword {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+.iconshowpassword {
+  position: absolute;
+  right: 630px;
+  width: 20px;
+  cursor: pointer;
 }
