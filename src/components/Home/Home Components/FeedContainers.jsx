@@ -21,7 +21,10 @@ const FeedContainers = () => {
     <div className="feed-main__wrapper">
       <div className="feed-wrapper" id="feedMainWrapper">
         <button className="dots-btn" onClick={clickDots}>
-          <BiDotsHorizontalRounded size="19px" />
+          <BiDotsHorizontalRounded
+            size="19px"
+            style={{ backgroundColor: "white" }}
+          />
         </button>
         {dotsModal && (
           <div className="dropdown-dots__wrapper">
@@ -41,7 +44,7 @@ const FeedContainers = () => {
           <div>
             <img className="feed-post1" src={NaturePic} />
           </div>
-          <div>
+          <div className="feed-post-div">
             <div className="feed-post__profilePicUser__wrapper">
               <img className="feed-post__profilepicture" src={AJS} />
               <label className="feed-post__labelUserName">@nameName</label>
@@ -60,13 +63,16 @@ const FeedContainers = () => {
             <div className="feed-post__icons">
               <ul className="feed-post__iconsUl_wrapper">
                 <li>
-                  <BiLike size="20px" color="blue" />
+                  <BiLike size="20px" style={{ backgroundColor: "white" }} />
                 </li>
                 <li>
-                  <BiCommentDetail size="20px" color="blue" />
+                  <BiCommentDetail
+                    size="20px"
+                    style={{ backgroundColor: "white" }}
+                  />
                 </li>
                 <li>
-                  <BiShare size="20px" />
+                  <BiShare size="20px" style={{ backgroundColor: "white" }} />
                 </li>
               </ul>
               <p className="feed-post__date">18/02/2022</p>
@@ -76,12 +82,18 @@ const FeedContainers = () => {
       </div>
       <div className="feed-wrapper">
         <button className="dots-btn">
-          <BiDotsHorizontalRounded size="19px" />
+          <BiDotsHorizontalRounded
+            size="19px"
+            style={{ backgroundColor: "white" }}
+          />
         </button>
       </div>
       <div className="feed-wrapper">
         <button className="dots-btn">
-          <BiDotsHorizontalRounded size="19px" />
+          <BiDotsHorizontalRounded
+            size="19px"
+            style={{ backgroundColor: "white" }}
+          />
         </button>
       </div>
     </div>

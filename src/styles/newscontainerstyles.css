@@ -1,56 +1,56 @@
- 
- .news-main-container__wrapper{
-    position: absolute;
-    background-color: #f1f1f1;
- }
- .news-container__wrapper{
-    width: 500px;
-    height: 190px;
-    margin-left: 40px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    overflow-y: scroll;
-    overflow-x: hidden;
- }
+.news-main-container__wrapper {
+  position: absolute;
+  background-color: #f1f1f1;
+}
+.news-container__wrapper {
+  width: 500px;
+  height: 190px;
+  margin-left: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
- .news-container__wrapper::-webkit-scrollbar {
-    width:6px;
+.news-container__wrapper::-webkit-scrollbar {
+  width: 6px;
 }
 
 .news-container__wrapper::-webkit-scrollbar-track {
-    background-color: white;
+  background-color: white;
 }
 
 .news-container__wrapper::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #FDD000;
+  border-radius: 10px;
+  background-color: #fdd000;
 }
 
+.news-container__title__header {
+  padding: 5px;
+  color: #202020;
+  font-weight: 100;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
 
- .news-container__title__header{
-    padding:5px;
-    color: #202020;
-    font-weight: 100;
-    font-size: 17px;
-    letter-spacing: .5px;
-    border-bottom: 1px solid rgba(0,0,0,0.15);
- }
+.news-container__news-title__wrapper {
+  font-size: 13px;
+  margin-left: 20px;
+  background-color: white;
+}
 
- .news-container__news-title__wrapper{
-    font-size: 13px;
-    margin-left: 20px;
-    
- }
+.news-container__news-title__wrapper li {
+  cursor: pointer;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
 
- .news-container__news-title__wrapper li{
-    cursor: pointer;
-    margin-top: 10px;
-    color: rgba(0,0,0,0.5);
-    transition:  all .3s ease-in-out;
- }
-
- .news-container__news-title__wrapper li:hover{
-    color: #202020;
-    transition:  all .3s ease-in-out;
- }
+.news-container__news-title__wrapper li:hover {
+  color: #202020;
+  transition: all 0.3s ease-in-out;
+}
