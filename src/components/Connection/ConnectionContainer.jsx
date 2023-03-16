@@ -33,7 +33,7 @@ const ConnectionContainer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="connection-display-main__wrapper">
           <ConnectionDisplay />
         </div>
       </div>
