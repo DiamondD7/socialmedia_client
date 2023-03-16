@@ -1,0 +1,80 @@
+.connection-main__wrapper {
+  padding: 0 10%;
+}
+
+.search-input__wrapper {
+  text-align: center;
+}
+
+.search-input {
+  font-size: 20px;
+
+  width: 60%;
+  border-radius: 6px;
+  padding: 1px 10px;
+}
+
+.search-input::placeholder {
+  text-align: center;
+}
+
+.search-categories__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+
+  margin-top: 20px;
+}
+
+.search-categories__wrapper li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  font-size: 20px;
+}
+
+/* ------------------------------CONNECTION DISPLAY---------------------------- */
+
+.connectiondisplay-main__wrapper {
+  width: 100%;
+  height: 300px;
+
+  margin-top: 50px;
+}
+
+.connections__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 28px;
+}
+
+.image-temp {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50px;
+  margin-right: 40px;
+
+  background-color: rgb(198, 197, 197);
+}
+
+.connection-name__text {
+  margin-right: 300px;
+  width: 300px;
+}
+
+.btn-connect {
+  margin-right: 20px;
+  font-size: 15px;
+  cursor: pointer;
+
+  color: #fdd000;
+}
+
+.btn-block {
+  font-size: 15px;
+  cursor: pointer;
+}
