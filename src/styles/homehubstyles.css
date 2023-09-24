@@ -7,9 +7,12 @@
 
 .components_wrapper {
   height: 100%;
+  width: 50%;
+  margin-left: 470px;
   background-color: #f1f1f1;
   padding-top: 50px;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .status-container__wrapper {

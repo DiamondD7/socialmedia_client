@@ -29,7 +29,7 @@ const Nav = () => {
             </Link>
           </li>
           <li>Messaging</li>
-          <li>Notification</li>
+          <li>Account</li>
         </ul>
       </div>
     </div>

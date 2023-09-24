@@ -7,6 +7,7 @@ import {
   BiCommentDetail,
   BiDotsHorizontalRounded,
 } from "react-icons/bi";
+
 const FeedContainers = () => {
   const [dotsModal, setDotsModal] = useState(false);
 
