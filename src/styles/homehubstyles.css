@@ -15,6 +15,10 @@
   overflow-x: hidden;
 }
 
+.components_wrapper::-webkit-scrollbar-track {
+  background-color: black;
+}
+
 .status-container__wrapper {
   margin-left: 50%;
   transform: translate(-50%);
