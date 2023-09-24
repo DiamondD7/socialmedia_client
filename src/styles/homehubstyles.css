@@ -7,8 +7,8 @@
 
 .components_wrapper {
   height: 100%;
-  width: 50%;
-  margin-left: 470px;
+  width: 57%;
+  margin-left: 430px;
   background-color: #f1f1f1;
   padding-top: 50px;
   overflow-y: auto;
@@ -16,10 +16,6 @@
 }
 
 .status-container__wrapper {
-  /* position: absolute;
-    top:100px;
-    left:50%;
-    transform: translate(-50%); */
   margin-left: 50%;
   transform: translate(-50%);
   background-color: white;
@@ -41,12 +37,6 @@
   object-fit: cover;
   object-position: top;
   border-radius: 50px;
-  /* hexagon shape: 
-
-    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-
-    */
 }
 
 .status-second__wrapper {
@@ -72,7 +62,6 @@
   margin: 10px 0 0 90px;
   display: flex;
   background-color: white;
-  /* justify-content: space-evenly; */
 }
 
 .status-imageicon {
