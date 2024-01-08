@@ -44,14 +44,22 @@
 }
 
 .news-container__news-title__wrapper li {
-  cursor: pointer;
   margin-top: 10px;
   color: rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease-in-out;
   background-color: white;
+  text-decoration: none;
 }
 
-.news-container__news-title__wrapper li:hover {
+.news-container__news-title__wrapper li a {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  text-decoration: none;
+}
+
+.news-container__news-title__wrapper li a:hover {
   color: #202020;
   transition: all 0.3s ease-in-out;
 }
